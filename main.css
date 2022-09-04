@@ -1,0 +1,45 @@
+body {
+  background-color: hsl(212deg, 45%, 89%);
+}
+body .container {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  body .container {
+    margin-top: 10%;
+  }
+}
+body .container .box {
+  text-align: center;
+  margin-top: 10%;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 15px;
+  height: 28rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container .box img {
+  height: auto;
+  width: 93%;
+  border-radius: 15px;
+  margin-bottom: 5%;
+  margin-top: -10%;
+}
+body .container .box .Top-par {
+  font-weight: 700;
+  font-size: 19px;
+  color: hsl(218deg, 44%, 22%);
+}
+body .container .box .bottom-par {
+  font-weight: 400;
+  width: 76%;
+  font-size: 12px;
+  color: hsl(220deg, 15%, 55%);
+}
+@media screen and (max-width: 768px) {
+  body .container .box .bottom-par {
+    width: 75%;
+  }
+}/*# sourceMappingURL=main.css.map */
